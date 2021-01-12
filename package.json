@@ -1,0 +1,24 @@
+{
+  "name": "04_nebula",
+  "version": "1.0.0",
+  "description": "Nebula Presentation ",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yakub-Egamnazarov/Nebula-project.git"
+  },
+  "author": "Yakub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yakub-Egamnazarov/Nebula-project/issues"
+  },
+  "homepage": "https://github.com/Yakub-Egamnazarov/Nebula-project#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.4"
+  }
+}
