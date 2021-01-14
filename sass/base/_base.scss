@@ -3,16 +3,15 @@
 *::after {
     margin: 0;
     padding: 0;
-    // border: 0;
     box-sizing: inherit;
 }
 
 html {
     font-size: 62.5%;
+    box-sizing: border-box;
 }
 
 body {
-    // box-sizing: border-box;
     height: 100vh;
     color: $color-grey-4;
     background-color: $color-grey-1;

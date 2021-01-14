@@ -2,7 +2,10 @@
 - set up all the sass folders and files to compile (done)
 - set up color and other variables (done)
 - set up the parallax effect to the background-1 (done)
-- section-1 (page-1) should be completed with parallax effect
+- section-1 (page-1) completed with parallax effect
+-flex box used for the main container (pimg) which containes all the pages. 
+- new fonst (similar to bahnschrift font) added
+- section 2 (page2) should be completed. 
 
 complete the project page by page as it is presentation file (wednesday, thursday)
 
