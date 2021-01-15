@@ -79,11 +79,77 @@ body {
   margin-top: 2rem;
   margin-bottom: 2rem; }
 
+.heading-box {
+  margin-top: 2rem;
+  width: 80%;
+  padding: 1.5rem 4rem;
+  background-color: rgba(63, 81, 181, 0.4);
+  border: 10px groove #303F9F;
+  border-radius: 4rem;
+  box-shadow: 4px 6px 16px rgba(63, 81, 181, 0.4); }
+  .heading-box__text {
+    font-size: 6rem;
+    color: #BDBDBD;
+    text-transform: uppercase;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.4); }
+  .heading-box span {
+    margin-right: 2rem;
+    padding: 1rem;
+    border-radius: 50%;
+    border: 4px solid #BDBDBD;
+    background-color: #757575;
+    box-shadow: 0px 0px 10px rgba(244, 245, 249, 0.8); }
+
+.logo-box {
+  width: 10rem;
+  position: absolute;
+  top: 5rem;
+  right: 5rem; }
+  .logo-box__img {
+    width: 100%; }
+
+.principals {
+  margin-left: -10rem;
+  width: 110%;
+  background-color: rgba(244, 245, 249, 0.7);
+  text-align: center;
+  border-radius: 4px; }
+  .principals__heading {
+    font-size: 8rem;
+    color: #757575;
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.9); }
+  .principals div {
+    display: flex;
+    justify-content: space-around; }
+  .principals__text {
+    padding: 1rem 2rem;
+    color: #C5CAE9;
+    font-size: 6rem;
+    text-transform: uppercase;
+    text-shadow: 3px 4px rgba(255, 255, 255, 0.9); }
+
+.text-box {
+  margin: 2rem;
+  padding: 2rem 4rem;
+  width: 90rem;
+  border-radius: 5px;
+  background-color: rgba(63, 81, 181, 0.8);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4); }
+  .text-box__text {
+    line-height: 3rem;
+    font-size: 2.3rem;
+    font-weight: 400;
+    color: #BDBDBD;
+    letter-spacing: 2px; }
+  .text-box--moved {
+    transform: translateX(15rem); }
+
 .section {
   width: 95%;
-  height: 95vh;
+  min-height: 95vh;
   position: relative;
-  background-color: rgba(48, 63, 159, 0.05);
+  background-color: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(4px); }
 
 .section-1__title {
@@ -134,14 +200,6 @@ body {
     text-transform: uppercase;
     letter-spacing: 8px; }
 
-.section-2-logo {
-  width: 10rem;
-  position: absolute;
-  top: 5rem;
-  right: 10rem; }
-  .section-2-logo__img {
-    width: 100%; }
-
 .section-2-cont {
   position: absolute;
   top: 5rem;
@@ -183,3 +241,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center; }
+
+.page-3__text-box {
+  margin-top: 2rem;
+  margin-left: 20rem; }
