@@ -1,0 +1,46 @@
+.name-box {
+    padding: .5rem 2rem;
+    display: block;
+    background-color: rgba($color-primary, 0.2);
+    border-radius: 4px;
+    box-shadow: 4px 4px 8px rgba($color-black, 0.6);
+
+    position: absolute;
+    top: 2.5%;
+    right: 2%;
+
+    // typography
+    &__sagta {
+        display: inline-block;
+        margin-right: 2rem;
+
+        // typography
+        font-size: 4rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: orangered;
+        letter-spacing: 1px;
+    }
+
+    &__engineering {
+        display: inline-block;
+
+        // typography
+        font-size: 3.5rem;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        color: $color-grey-3;
+    }
+
+    &__slogan {
+        display: block;
+        margin-top: -1.5rem;
+
+        // typography
+        font-size: 3rem;
+        font-weight: 400;
+        letter-spacing: 2px;
+        color: $color-grey-3;
+        // line-height: .5rem;
+    }
+}

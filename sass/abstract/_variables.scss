@@ -1,25 +1,22 @@
-$color-primary: #3F51B5;
-$color-primary-light: #C5CAE9;
-$color-primary-dark: #303F9F;
-$color-primary-dark-2: #1e296d;
+$color-primary: #0d47a1;
+$color-primary-light: #42a5f5;
+$color-primary-dark: #1a237e;
 
+$color-yellow: #ffeb3b;
+$color-red: #e53935;
+$color-green: #4caf50;
 
-$color-secondary: #FFC107;
-$color-secondary-light: #FFECB3;
-$color-secondary-dark: #FFA000;
-
-
-$color-grey-1: #f4f5f9;
-$color-grey-2: #BDBDBD;
-$color-grey-3: #757575;
-$color-grey-4: #444444;
-$color-grey-5: #212121;
+$color-grey-1: #fafafa;
+$color-grey-2: #eeeeee;
+$color-grey-3: #bdbdbd;
+$color-grey-4: #757575;
+$color-grey-5: #424242;
 
 $color-white: #ffffff;
 $color-black: #000000;
 
 
-$gradient-primary: linear-gradient(to right bottom, #C5CAE9, #303F9F);
+$gradient-primary: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
 $gradient-primary-reversed: linear-gradient(to right bottom, #303F9F, #C5CAE9);
 $gradient-secondary: linear-gradient(to right, #FFECB3, #FFC107);
 

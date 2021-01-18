@@ -1,0 +1,22 @@
+.sagta-message {
+    background-color: rgba($color-primary-dark, .8);
+    // background-image: $gradient-primary;
+    width: 80rem;
+    padding: 1.5rem 2rem;
+    border: 8px solid $color-primary;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px rgba($color-black, .9);
+
+    position: absolute;
+    top: 60%;
+    right: 7%;
+
+    // typography
+    &__text {
+        font-size: 3rem;
+        color: $color-grey-3;
+        font-weight: 300;
+        text-shadow: 2px 3px 4px rgba($color-white, .4);
+    }
+
+}

@@ -10,11 +10,15 @@
 @import "components/buttons";
 @import "components/heading-box";
 @import "components/logo-box";
+@import "components/name-box";
+@import "components/page-heading-1";
 @import "components/principals";
+@import "components/sagta-message";
 @import "components/text-box";
 
 @import "layout/grid";
+@import "layout/pages";
 @import "layout/section";
 
-@import "pages/main";
+@import "pages/main-page";
 @import "pages/page-3";

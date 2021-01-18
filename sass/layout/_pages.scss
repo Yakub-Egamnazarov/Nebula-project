@@ -1,0 +1,13 @@
+.page {
+    width: 95%;
+    min-height: 95vh;
+    position: relative;
+
+    border: 1px dashed red;
+
+    background-color: rgba($color-black, .1);
+    backdrop-filter: blur(4px);
+}
+
+
+
