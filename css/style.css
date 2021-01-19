@@ -79,20 +79,77 @@ body {
   margin-top: 2rem;
   margin-bottom: 2rem; }
 
-.heading-box {
-  margin-top: 2rem;
+.page-2-content {
+  position: absolute;
+  top: 5rem;
+  left: 50%; }
+  .page-2-content__item {
+    margin: 6rem 2rem;
+    font-size: 3rem;
+    letter-spacing: 2.5px;
+    list-style: none;
+    color: #eeeeee; }
+    .page-2-content__item--text {
+      text-shadow: rgba(13, 71, 161, 0.4); }
+    .page-2-content__item span {
+      margin-right: 2.5rem;
+      padding: 1.5rem;
+      border-radius: 50%;
+      border: 4px solid #eeeeee;
+      background-color: #bdbdbd;
+      box-shadow: 0px 0px 20px rgba(250, 250, 250, 0.8); }
+  .page-2-content__item-text--1 {
+    transform: translateX(0); }
+  .page-2-content__item-text--2 {
+    transform: translate(9rem, -1rem); }
+  .page-2-content__item-text--3 {
+    transform: translateX(12rem); }
+  .page-2-content__item-text--4 {
+    transform: translate(9rem, 1rem); }
+  .page-2-content__item-text--5 {
+    transform: translateX(0); }
+
+.heading-1 {
+  max-width: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 2%;
+  left: 10%;
+  font-size: 6rem;
+  color: #42a5f5;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-shadow: 4px 6px 16px rgba(26, 35, 126, 0.8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right bottom, #42a5f5, #1a237e); }
+
+.heading-2 {
+  display: inline-block;
+  margin-left: 20rem;
+  margin-top: 5rem;
+  padding: 0 5rem;
+  font-size: 10rem;
+  font-family: inherit;
+  color: #eeeeee;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-shadow: 2px 2px 6px rgba(26, 35, 126, 0.4); }
+
+.heading-3 {
+  margin: 2rem;
   width: 80%;
   padding: 1.5rem 4rem;
-  background-color: rgba(13, 71, 161, 0.4);
-  border: 10px groove #1a237e;
+  background-color: rgba(13, 71, 161, 0.8);
+  border: 5px groove #42a5f5;
   border-radius: 4rem;
   box-shadow: 4px 6px 16px rgba(13, 71, 161, 0.4); }
-  .heading-box__text {
+  .heading-3__text {
     font-size: 6rem;
     color: #eeeeee;
     text-transform: uppercase;
     text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.4); }
-  .heading-box span {
+  .heading-3 span {
     margin-right: 2rem;
     padding: 1rem;
     border-radius: 50%;
@@ -103,8 +160,8 @@ body {
 .logo-box {
   width: 10rem;
   position: absolute;
-  top: 5rem;
-  right: 5rem; }
+  top: 2rem;
+  right: 2rem; }
   .logo-box__img {
     width: 100%; }
 
@@ -139,25 +196,9 @@ body {
     letter-spacing: 2px;
     color: #bdbdbd; }
 
-.page__heading-1 {
-  max-width: 50%;
-  display: inline-block;
-  position: absolute;
-  top: 2%;
-  left: 10%;
-  font-size: 6rem;
-  color: #42a5f5;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  text-shadow: 4px 6px 16px rgba(26, 35, 126, 0.8);
-  -webkit-background-clip: text;
-  background-clip: text;
-  background-image: linear-gradient(to right bottom, #42a5f5, #1a237e); }
-
 .principals {
-  margin-left: -10rem;
-  width: 110%;
-  background-color: rgba(250, 250, 250, 0.7);
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
   text-align: center;
   border-radius: 4px; }
   .principals__heading {
@@ -170,10 +211,10 @@ body {
     justify-content: space-around; }
   .principals__text {
     padding: 1rem 2rem;
-    color: #42a5f5;
+    color: #bdbdbd;
     font-size: 6rem;
     text-transform: uppercase;
-    text-shadow: 3px 4px rgba(255, 255, 255, 0.9); }
+    text-shadow: 4px 4px 0 rgba(117, 117, 117, 0.6); }
 
 .sagta-message {
   background-color: rgba(26, 35, 126, 0.8);
@@ -191,20 +232,20 @@ body {
     font-weight: 300;
     text-shadow: 2px 3px 4px rgba(255, 255, 255, 0.4); }
 
-.text-box {
+.text-box-1 {
   margin: 2rem;
   padding: 2rem 4rem;
   width: 90rem;
   border-radius: 5px;
   background-color: rgba(13, 71, 161, 0.8);
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4); }
-  .text-box__text {
+  .text-box-1__text {
     line-height: 3rem;
     font-size: 2.3rem;
     font-weight: 400;
     color: #eeeeee;
     letter-spacing: 2px; }
-  .text-box--moved {
+  .text-box-1--moved {
     transform: translateX(15rem); }
 
 .page {
