@@ -79,6 +79,9 @@ body {
   margin-top: 2rem;
   margin-bottom: 2rem; }
 
+.background-white {
+  background-color: #ffffff; }
+
 .clipped-background {
   width: 100%;
   height: 100rem;
@@ -266,6 +269,10 @@ body {
     font-weight: 300;
     text-shadow: 2px 3px 4px rgba(255, 255, 255, 0.4); }
 
+.skewed-shape {
+  width: 5rem;
+  height: 100vh; }
+
 .text-box-1 {
   margin: 2rem;
   padding: 2rem 4rem;
@@ -281,6 +288,29 @@ body {
     letter-spacing: 2px; }
   .text-box-1--moved {
     transform: translateX(15rem); }
+
+.text-box-2 {
+  margin: 2rem;
+  padding: 2rem 4rem;
+  width: 100%;
+  border-radius: 5px;
+  background-color: rgba(26, 35, 126, 0.4);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4); }
+  .text-box-2__text {
+    line-height: 2.5rem;
+    font-size: 2.3rem;
+    font-weight: 400;
+    color: #bdbdbd;
+    letter-spacing: 2px; }
+  .text-box-2__shape {
+    -webkit-shape-outside: polygon(50% 0, 100% 0, 100% 100%);
+    shape-outside: polygon(50% 0, 100% 0, 100% 100%);
+    -webkit-clip-path: polygon(50% 0, 100% 0, 100% 100%);
+    clip-path: polygon(50% 0, 100% 0, 100% 100%);
+    width: 50rem;
+    min-height: 10rem;
+    background-color: orange;
+    float: right; }
 
 .page {
   width: 95%;
@@ -403,3 +433,14 @@ body {
 .page-3__text-box {
   margin-top: 2rem;
   margin-left: 20rem; }
+
+.page-4 .background-shape {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) skew(15deg);
+  z-index: -10; }
+
+.page-4__text-box {
+  background-color: red;
+  width: 50%; }

@@ -14,15 +14,37 @@
         font-weight: 400;
         color: $color-grey-2;
         letter-spacing: 2px;
-
-
     }
 
     &--moved {
         transform: translateX(15rem);
     }
+}
 
+.text-box-2 {
+    margin: 2rem;
+    padding: 2rem 4rem;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba($color-primary-dark, .4);
+    box-shadow: 4px 4px 8px rgba($color-black, .4);
 
+    &__text {
+        line-height: 2.5rem;
+        font-size: 2.3rem;
+        font-weight: 400;
+        color: $color-grey-3;
+        letter-spacing: 2px;
+    }
 
-
+    &__shape {
+        -webkit-shape-outside: polygon(50% 0, 100% 0, 100% 100%);
+        shape-outside: polygon(50% 0, 100% 0, 100% 100%);
+        -webkit-clip-path: polygon(50% 0, 100% 0, 100% 100%);
+        clip-path: polygon(50% 0, 100% 0, 100% 100%);
+        width: 50rem;
+        min-height: 10rem;
+        background-color: orange;
+        float: right;
+    }
 }

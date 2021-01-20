@@ -1,0 +1,19 @@
+.page-4 {
+
+    .background-shape {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%) skew(15deg);
+        z-index: -10;
+    }
+
+    &__text-box {
+        background-color: red;
+        width: 50%;
+        // -webkit-clip-path: polygon(0 0, 50% 0, 100% 100%, 0 100%);
+
+    }
+
+    
+}
